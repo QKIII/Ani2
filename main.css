@@ -7,10 +7,12 @@ body {
   overflow: hidden;
 }
 
-#bm {
+.bm {
 	
   width: 400px;
   height: 400px;
+      position: absolute;
+    float: left;
 }
 .nav{
 	width:100%;
@@ -49,7 +51,3 @@ body {
     transition: opacity .2s;
 }
 
-#follower{
-    position: absolute;
-    float: left;
-}
