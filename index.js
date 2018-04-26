@@ -3,7 +3,7 @@ var data = { "v": "5.1.1", "fr": 60, "ip": 0, "op": 31, "w": 800, "h": 600, "nm"
 
 var counter = 1
 
-$("html").click(function(e) {
+$("html").on("tap click",function(e) {
 
   counter++
 
